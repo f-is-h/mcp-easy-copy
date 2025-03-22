@@ -1,0 +1,34 @@
+# Development files
+.git
+.github
+.vscode
+src/
+test/
+tests/
+*.test.js
+*.spec.js
+tsconfig.json
+.eslintrc
+.prettierrc
+.editorconfig
+.gitignore
+.travis.yml
+.circleci/
+jest.config.js
+
+# Build scripts
+build.sh
+scripts/
+
+# Documentation files that aren't needed in the package
+docs/
+test-instructions.md
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
