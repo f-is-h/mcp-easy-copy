@@ -1,0 +1,39 @@
+{
+  "name": "@fishes/mcp-easy-copy",
+  "version": "1.0.1",
+  "description": "A MCP server that lists all available MCP services for easy copying and usage",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-easy-copy": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "inspector": "npx @modelcontextprotocol/inspector node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisheepx/mcp-easy-copy.git"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "service-list",
+    "tools",
+    "utility"
+  ],
+  "author": "fisheep",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
