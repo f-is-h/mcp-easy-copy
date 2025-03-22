@@ -12,7 +12,14 @@ This MCP server is designed to be your first stop when working with Claude Deskt
 2. Extracting the names of all configured MCP services
 3. Presenting them in an easy-to-copy format at the top of the tools list
 
-Although Claude can now automatically select the appropriate MCP services in most scenarios, there are still situations where users need to explicitly specify an MCP service name. This tool bridges that gap, making all available services easily accessible without having to search through configuration files.
+Although Claude can now automatically select the appropriate MCP services in most scenarios, there are still situations where users need to explicitly specify an MCP service name. These situations include:
+
+- When you have many MCP services configured, making the tools list long and difficult to navigate
+- When specific MCP services offer multiple callable actions, further increasing the list length
+- When you need to direct Claude to use a specific service rather than relying on its automatic selection
+- When troubleshooting or comparing results between different MCP services
+
+This tool bridges that gap, making all available services easily accessible without having to search through configuration files.
 
 ## Features
 
