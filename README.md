@@ -1,5 +1,11 @@
 # MCP Easy Copy
 
+[![MCP Server](https://badge.mcpx.dev?type=server)](https://modelcontextprotocol.io)
+[![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows-lightgrey)](https://claude.ai/download)
+[![npm version](https://img.shields.io/npm/v/@fishes/mcp-easy-copy)](https://www.npmjs.com/package/@fishes/mcp-easy-copy)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A Model Context Protocol server that makes it easy to discover and copy available MCP services in Claude Desktop.
 
 <img src="docs/images/screenshot.png" alt="MCP Easy Copy in action" width="400"/>
