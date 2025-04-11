@@ -5,6 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/@fishes/mcp-easy-copy)](https://www.npmjs.com/package/@fishes/mcp-easy-copy)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![smithery badge](https://smithery.ai/badge/@fisheepx/mcp-easy-copy)](https://smithery.ai/server/@fisheepx/mcp-easy-copy)
 
 A Model Context Protocol server that makes it easy to discover and copy available MCP services in Claude Desktop.
 
@@ -35,6 +36,14 @@ This tool bridges that gap, making all available services easily accessible with
 - **Zero external dependencies**: Just needs Node.js
 
 ## Installation
+
+### Installing via Smithery
+
+To install Easy Copy for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fisheepx/mcp-easy-copy):
+
+```bash
+npx -y @smithery/cli install @fisheepx/mcp-easy-copy --client claude
+```
 
 ### Option 1: Install via npm (Recommended)
 
