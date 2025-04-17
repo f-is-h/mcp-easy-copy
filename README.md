@@ -9,6 +9,10 @@
 
 A Model Context Protocol server that makes it easy to discover and copy available MCP services in Claude Desktop.
 
+<a href="https://glama.ai/mcp/servers/@fisheepx/mcp-easy-copy">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@fisheepx/mcp-easy-copy/badge" alt="Easy Copy MCP server" />
+</a>
+
 <img src="docs/images/screenshot.png" alt="MCP Easy Copy in action" width="400"/>
 
 ## Purpose
