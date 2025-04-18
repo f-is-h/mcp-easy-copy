@@ -4,8 +4,8 @@
 [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows-lightgrey)](https://claude.ai/download)
 [![npm version](https://img.shields.io/npm/v/@fishes/mcp-easy-copy)](https://www.npmjs.com/package/@fishes/mcp-easy-copy)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![smithery badge](https://smithery.ai/badge/@fisheepx/mcp-easy-copy)](https://smithery.ai/server/@fisheepx/mcp-easy-copy)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A Model Context Protocol server that makes it easy to discover and copy available MCP services in Claude Desktop.
 
@@ -71,7 +71,7 @@ Then add to your Claude Desktop configuration:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fisheepx/mcp-easy-copy.git
+   git clone https://github.com/f-is-h/mcp-easy-copy.git
    cd mcp-easy-copy
    ```
 
