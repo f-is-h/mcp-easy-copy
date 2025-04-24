@@ -9,10 +9,6 @@
 
 A Model Context Protocol server that makes it easy to discover and copy available MCP services in Claude Desktop.
 
-<a href="https://glama.ai/mcp/servers/@fisheepx/mcp-easy-copy">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/@fisheepx/mcp-easy-copy/badge" alt="Easy Copy MCP server" />
-</a>
-
 <img src="docs/images/screenshot.png" alt="MCP Easy Copy in action" width="400"/>
 
 ## Purpose
@@ -41,14 +37,6 @@ This tool bridges that gap, making all available services easily accessible with
 
 ## Installation
 
-### Installing via Smithery
-
-To install Easy Copy for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fisheepx/mcp-easy-copy):
-
-```bash
-npx -y @smithery/cli install @fisheepx/mcp-easy-copy --client claude
-```
-
 ### Option 1: Install via npm (Recommended)
 
 ```bash
@@ -71,7 +59,15 @@ Then add to your Claude Desktop configuration:
 }
 ```
 
-### Option 2: Manual Installation
+### Option 2: Installing via Smithery
+
+To install Easy Copy for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fisheepx/mcp-easy-copy):
+
+```bash
+npx -y @smithery/cli install @fisheepx/mcp-easy-copy --client claude
+```
+
+### Option 3: Manual Installation
 
 1. Clone the repository:
    ```bash
@@ -95,17 +91,17 @@ Then add to your Claude Desktop configuration:
    
    Add the following configuration:
    ```json
-{
-   "mcpServers": {
-   "mcp-easy-copy": {
-   "command": "node",
-   "args": [
-   "/ABSOLUTE/PATH/TO/mcp_easy_copy/build/index.js"
-   ]
+   {
+     "mcpServers": {
+       "mcp-easy-copy": {
+         "command": "node",
+         "args": [
+            "/ABSOLUTE/PATH/TO/mcp_easy_copy/build/index.js"
+         ]
+       }
+     }
    }
-   }
-}
-```
+   ```
 
 4. Restart Claude Desktop
 
@@ -156,6 +152,12 @@ If the tool doesn't work as expected:
 4. **Restart Claude**: Always restart Claude Desktop after making configuration changes
 
 5. **Use the Inspector**: Run `npm run inspector` to debug with the MCP Inspector
+
+## Other Badges
+
+<a href="https://glama.ai/mcp/servers/@fisheepx/mcp-easy-copy">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@f-is-h/mcp-easy-copy/badge" alt="Easy Copy MCP server" />
+</a>
 
 ## License
 
