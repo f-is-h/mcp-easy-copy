@@ -1,5 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/f-is-h-mcp-easy-copy-badge.png)](https://mseep.ai/app/f-is-h-mcp-easy-copy)
-
 # MCP Easy Copy
 
 [![MCP Server](https://badge.mcpx.dev?type=server)](https://modelcontextprotocol.io)
@@ -157,9 +155,13 @@ If the tool doesn't work as expected:
 
 ## Other Badges
 
+### Glama
 <a href="https://glama.ai/mcp/servers/@fisheepx/mcp-easy-copy">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@f-is-h/mcp-easy-copy/badge" alt="Easy Copy MCP server" />
 </a>
+
+### MseeP.ai
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/f-is-h-mcp-easy-copy-badge.png)](https://mseep.ai/app/f-is-h-mcp-easy-copy)
 
 ## License
 
